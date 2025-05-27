@@ -11,8 +11,36 @@ const poppins = Poppins({
 
 
 export const metadata: Metadata =  {
-  title: "Azka Portfolio",
-  description: "Azka's Portfolio",
+  title: "Azka Zufar Hanif | Full Stack Developer & Designer",
+  keywords: [
+    "Azka Zufar Hanif",
+    "Full Stack Developer",
+    "Designer",
+    "Portfolio",
+    "Web Developer",
+    "UI/UX Designer",
+    "JavaScript",
+    "React",
+    "Next.js",
+    "Node.js",
+    "Tailwind CSS",
+    "HTML",
+    "CSS",
+    "TypeScript",
+    "Software Engineer",
+    "Web Design",
+    "Web Development",
+    "Frontend Developer"
+  ],
+  authors: [{ name: "Azka Zufar Hanif", url: "https://azka.dev" }],
+  creator: "Azka Zufar Hanif",
+  openGraph: {
+    title: "Azka Zufar Hanif | Full Stack Developer & Designer",
+    description: "Azka Zufar Hanif is a Full Stack Developer and Designer specializing in creating modern web applications.", 
+    url: "https://azka.dev",
+    siteName: "Azka Zufar Hanif | Full Stack Developer & Designer",
+  },
+  description: "Azka Zufar Hanif is a Full Stack Developer and Designer specializing in creating modern web applications.", 
 };
 
 export default function RootLayout({
@@ -22,9 +50,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${poppins.variable} antialiased`}
-      >
+      <body className={`${poppins.variable} antialiased scroll-smooth`}>
         {children}
       </body>
     </html>

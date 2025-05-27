@@ -2,28 +2,28 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className="bg-gray-100 py-12 px-4 md:px-0">
+    <div className="bg-gray-100 py-12 px-4 md:px-0" id='about'>
       <div className="max-w-5xl mx-auto">
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-8 justify-center items-center">
           <div>
-            <p className="text-xl text-gray-900">Azka Zufar Hanif</p>
-            <h2 className="text-4xl font-bold text-gray-900 my-4">
+            <p className="md:text-xl text-gray-900">Azka Zufar Hanif</p>
+            <h1 className='mb-4'>
               A Tech & <br /> Design Enthusiast
-            </h2>
+            </h1>
             <a
               href="https://drive.google.com/file/d/1CoWx0zm-9tSmfcz7FoN1I3-0uJyTOgt8/view?usp=sharing"
               target="_blank"
-              className="bg-blue-800 text-white px-4 py-2 rounded"
+              className="button"
             >
               See My Resume
             </a>
           </div>
           <div>
-            <p className="text-2xl font-bold text-blue-800 mb-2">
+            <p className="text-lg md:text-2xl font-bold text-blue-800 mb-2">
               &quot;Turning ideas into functional art—where code meets
               creativity&quot;
             </p>
-            <p className="text-gray-700">
+            <p>
               With 3+ years of coding experience, I blend technical skills and
               design thinking to build impactful digital solutions. My journey
               includes interning at PT. Mattel Indonesia as a Quality Intern,

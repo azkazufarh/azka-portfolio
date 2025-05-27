@@ -4,11 +4,11 @@ import React from "react";
 
 const Experience = () => {
   return (
-    <div className="bg-white">
+    <div className="bg-white" id="experience">
       <div className="max-w-5xl mx-auto py-8 px-4 md:px-0">
         <div className="text-center mb-4">
-          <h2 className="text-4xl font-bold text-gray-900 mb-2">Experience</h2>
-          <p className="text-gray-700">
+          <h1>Experience</h1>
+          <p>
             My journey in the tech world has been a blend of learning, growth,
             and impactful contributions.
           </p>
@@ -21,11 +21,11 @@ const Experience = () => {
                   <h4 className="text-xl font-bold text-gray-900 mb-2">
                     {data.title}
                   </h4>
-                  <p className="text-gray-700">{data.position}</p>
+                  <p>{data.position}</p>
                 </div>
                 <p className="text-gray-500 mt-2 md:mt-0">{data.duration}</p>
               </div>
-              <p className="text-gray-700">{data.description}</p>
+              <p>{data.description}</p>
             </div>
           ))}
         </div>
@@ -35,70 +35,62 @@ const Experience = () => {
         <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-4">
           <div>
             <div className="text-center mb-4">
-              <h2 className="text-4xl font-bold text-gray-900 mb-2">Awards</h2>
-              <p className="text-gray-700">
-                My achievements and recognition in the tech world.
-              </p>
+              <h1>Awards</h1>
+              <p>My achievements and recognition in the tech world.</p>
             </div>
             <div className="border border-gray-400 rounded md:flex justify-between items-center mb-2 p-4">
               <div>
-                <h4 className="text-xl font-bold text-gray-900 mb-2">
+                <h2 className="text-lg font-bold text-gray-900 mb-2">
                   Champion Winner Mattel Global Internship Competition 2024
-                </h4>
-                <p className="text-gray-700">PT. Mattel Indonesia</p>
+                </h2>
+                <p>PT. Mattel Indonesia - 2025</p>
                 <a
                   href="https://drive.google.com/file/d/1oLyw2IwWqgS1TNKNJs9gnf8idPExSuxI/view?usp=sharing"
-                  className="underline text-blue-700"
+                  className="underline text-blue-700 text-sm md:text-base"
                   target="_blank"
                 >
                   View Certificate
                 </a>
               </div>
-              <p className="text-gray-500 mb-2">2025</p>
             </div>
             <div className="border border-gray-400 rounded md:flex justify-between items-center mb-2 p-4">
               <div>
-                <h4 className="text-xl font-bold text-gray-900 mb-2">
+                <h4 className="text-lg font-bold text-gray-900 mb-2">
                   Distinction Graduate Bangkit Academy 2023
                 </h4>
-                <p className="text-gray-700">Bangkit Academy</p>
+                <p>Bangkit Academy - 2023</p>
                 <a
                   href="https://drive.google.com/file/d/1U5sKjEuQWWf5uHl2pEeWso8DdDewdmS8/view?usp=sharing"
-                  className="underline text-blue-700"
+                  className="underline text-blue-700 text-sm md:text-base"
                   target="_blank"
                 >
                   View Certificate
                 </a>
               </div>
-              <p className="text-gray-500">2023</p>
             </div>
           </div>
           <div>
             <div className="text-center mb-4">
-              <h2 className="text-4xl font-bold text-gray-900 mb-2">
-                Education
-              </h2>
-              <p className="text-gray-700">
-                My achievements and recognition in the tech world.
-              </p>
+              <h1>Education</h1>
+              <p>My achievements and recognition in the tech world.</p>
             </div>
             <div className="border border-gray-400 rounded md:flex justify-between items-center mb-2 p-4">
               <div>
-                <h4 className="text-xl font-bold text-gray-900 mb-2">
+                <h4 className="text-lg font-bold text-gray-900 mb-2">
                   President University
                 </h4>
-                <p className="text-gray-700">Informatics - Computer Science</p>
+                <p>Informatics - Computer Science</p>
               </div>
-              <p className="text-gray-500">2021 - 2024</p>
+              <p>2021 - 2024</p>
             </div>
             <div className="border border-gray-400 rounded md:flex justify-between items-center mb-2 p-4">
               <div>
-                <h4 className="text-xl font-bold text-gray-900 mb-2">
+                <h4 className="text-lg font-bold text-gray-900 mb-2">
                   SMK Al-Wafa
                 </h4>
-                <p className="text-gray-700">Multimedia</p>
+                <p>Multimedia</p>
               </div>
-              <p className="text-gray-500">2018 - 2021</p>
+              <p>2018 - 2021</p>
             </div>
           </div>
         </div>

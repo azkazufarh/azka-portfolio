@@ -8,11 +8,11 @@ const Portfolio = () => {
   const MAX_DISPLAY = 2;
 
   return (
-    <div className="bg-white">
+    <div className="bg-white" id="portfolio">
       <div className="max-w-5xl mx-auto py-8 px-4 md:px-0">
         <div className="text-center mb-4">
-          <h2 className="text-4xl font-bold text-gray-900 mb-2">Portfolio</h2>
-          <p className="text-gray-700">
+          <h1>Portfolio</h1>
+          <p>
             A collection of my projects that showcase my skills and creativity.
           </p>
         </div>
@@ -32,17 +32,17 @@ const Portfolio = () => {
                 className="rounded-t-2xl"
               />
               <div className="p-4">
-                <h3 className="text-xl font-bold text-gray-900 mb-1">
+                <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-1">
                   {data.title}
                 </h3>
-                <p className="text-sm text-gray-500 mb-2">{data.duration}</p>
+                <p className="mb-2">{data.duration}</p>
                 <div className="flex flex-wrap items-center gap-2 mb-2">
                   {data.technologies
                     .slice(0, MAX_DISPLAY)
                     .map((tech: string) => (
                       <p
                         key={tech}
-                        className="bg-gray-200 rounded py-1 px-2 text-xs text-gray-700"
+                        className="bg-gray-200 rounded py-1 px-2 text-gray-700"
                       >
                         {tech}
                       </p>

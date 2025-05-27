@@ -9,18 +9,18 @@ const Service = () => {
     <div className="bg-white max-w-5xl mx-auto py-12 md:px-0 px-4">
       <div className="grid grid-cols-1 md:grid-cols-3 items-center gap-4">
         <div className="col-span-1">
-          <h2 className="text-4xl font-bold mb-4 text-gray-900 text-center md:text-left">
+          <h1>
             Let’s Build Something Great Together{" "}
             <span className="text-blue-800">— Here’s How I Can Help</span>
-          </h2>
+          </h1>
         </div>
         <div className="col-span-2 grid grid-cols-1 md:grid-cols-3 gap-4 md:flex-nowrap">
           {
             services.map((data: Type) => (
               <div key={data.id} className="p-4 rounded outline outline-gray-300 text-center">
                 <Image src={data.image} width={140} height={140} alt={data.title} className='mx-auto h-40' />
-                <h3 className="text-xl font-bold mb-2 text-gray-900">{data.title}</h3>
-                <p className="text-gray-700">{data.description}</p>
+                <h2 className="text-xl font-bold mb-2 text-gray-900">{data.title}</h2>
+                <p>{data.description}</p>
               </div>
             ))
           }

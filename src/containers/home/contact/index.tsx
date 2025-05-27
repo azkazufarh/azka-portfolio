@@ -36,16 +36,17 @@ const Contact = () => {
         setStatus("Failed to send message.");
       }
     } catch (error) {
+      console.error("Error sending message:", error);
       setStatus("Something went wrong.");
     }
   };
 
   return (
-    <div className="bg-gray-900 py-12">
+    <div className="bg-gray-900 py-12" id="contact">
       <div className="max-w-5xl mx-auto px-4 md:px-0">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-center">
-          <div className="text-white">
-            <h2 className="text-4xl font-bold mb-2">Want to collaborate?</h2>
+          <div>
+            <h1 className="text-white mb-2">Want to collaborate?</h1>
             <p className="text-gray-300">
               Let’s make something big for your business
             </p>
