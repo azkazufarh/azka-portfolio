@@ -58,7 +58,7 @@ export const portfolios: Portfolio[] = [
     title: "Ecoloops",
     slug: "ecoloops",
     description: "An innovative API-based system designed to promote environmental sustainability by leveraging machine learning to detect waste from images and encourage recycling through a reward-based approach. The platform allows users to upload images of waste, which are then processed by an integrated machine learning model to identify the type of waste—such as plastic, metal, paper, or organic. Based on the detection results, users receive reward points and personalized suggestions on how to properly recycle the items. My primary responsibility in this project was developing the backend system, where I used Python and Flask to handle core logic, process image inputs, and establish seamless communication with the machine learning model. Additionally, I utilized Express.js to structure RESTful APIs and MySQL for secure and efficient data storage, including user profiles, reward points, and recycling history. The backend is designed for scalability and real-time performance, ensuring quick responses and accurate feedback to users. Overall, EcoLoops delivers a meaningful user experience by combining environmental awareness with interactive technology, encouraging users to make smarter, more sustainable decisions in their daily lives.",
-    image: "/images/portfolio/Ecoloops.png",
+    image: "/images/portfolio/EcoLoops.png",
     technologies: ["ExpressJS", "Flask", "Python", "MySQL", "Google Cloud"],
     duration: "May 2023 - June 2023",
   },
