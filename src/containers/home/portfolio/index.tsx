@@ -57,6 +57,7 @@ const Portfolio = () => {
                 <p className="text-sm text-gray-700">
                   {data.description.substring(0, 100)}...
                 </p>
+                <p className="button text-center mt-2 w-full">View Project</p>
               </div>
             </Link>
           ))}

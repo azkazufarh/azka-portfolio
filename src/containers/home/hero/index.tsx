@@ -23,7 +23,7 @@ const Hero = () => {
           width={300}
           height={300}
           alt="Azka Zufar Hanif"
-          className="h-[600px] w-[500px] md:h-[400px] md:w-[400px] object-cover shadow-lg"
+          className="h-[600px] w-[500px] md:h-[400px] md:w-[400px] object-top object-cover"
         />
       </div>
     </div>
